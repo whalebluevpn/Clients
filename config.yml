@@ -60,7 +60,8 @@ Proxy:
 # with tls (https)
 # - { name: "http", type: http, server: server, port: 443, tls: true }
 # with tls (https) and skip-cert-verify
-- { name: "JP", type: http, server: uat-42d5qwt8j.savoy.click, port: 443, username: "6466497326", password: "c9ab853d1d", tls: true, skip-cert-verify: true }
+- { name: "JP", type: http, server: uat-42d5qwt8j.savoy.click, port: 443, username: "3290135733", password: "8c30cfea2e", tls: true, skip-cert-verify: true }
+- { name: "US", type: http, server: uat-xtcvsd87j.tradewind.link, port: 443, username: "3290135733", password: "8c30cfea2e", tls: true, skip-cert-verify: true }
 
 Proxy Group:
 # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
