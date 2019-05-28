@@ -72,7 +72,7 @@ Proxy Group:
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
-- { name: "Proxy", type: select, proxies: ["JP"] }
+- { name: "Proxy", type: select, proxies: ["JP", "US"] }
 
 Rule:
 # Apple 服务优化
